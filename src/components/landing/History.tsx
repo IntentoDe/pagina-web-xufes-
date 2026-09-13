@@ -48,34 +48,42 @@ export function History() {
           <div className="grid grid-cols-1 gap-12 lg:gap-20">
             <div>
               <span className="text-sm font-semibold uppercase tracking-widest text-primary">
-                Conócenos
+                Nuestra Historia
               </span>
               <h2 className="mt-3 text-balance text-4xl font-semibold leading-tight text-earth-900 lg:text-5xl">
-                Más de 25 años cuidando cada etapa de la chufa
+                Tradición, tierra y maestría en la chufa de Alboraya
               </h2>
               <div className="mt-6 space-y-4 text-base leading-relaxed text-earth-700 lg:text-lg">
-                <p>
-                  Xufes Pastor es una empresa con más de 25 años de experiencia en el sector, presente
-                  en todos los pasos del proceso de la chufa, desde su plantación hasta su secado.
-                  Ese conocimiento profundo nos permite trabajar con rigor, cuidado y compromiso en
-                  cada etapa.
+                <p className="text-lg font-medium text-earth-900">
+                  Más de 50 años de tradición agrícola y más de un cuarto de siglo espe cializados en la chufa.
                 </p>
                 <p>
-                  Nuestra trayectoria nos ha convertido en una referencia por nuestro servicio y nuestra calidad,
-                  ofreciendo una chufa con el máximo cuidado y una atención cercana en cada lote.
-                  Llevamos mucho tiempo en el sector y lo hacemos desde la experiencia de quienes conocen
-                  cada detalle del producto.
+                  Xufes Pastor nace en el corazón de Alboraya, de la mano de dos hermanos que han
+                  dedicado toda su vida a la agricultura. Con más de 50 años de experiencia trabajando
+                  la tierra, el respeto por el campo y el conocimiento de cada ciclo del cultivo han
+                  sido siempre los pilares fundamentales de nuestra familia.
+                </p>
+                <p>
+                  Hace 27 años dimos un paso clave en nuestra trayectoria: nos integramos al 100% en
+                  el mundo de la chufa. Construimos nuestro propio lavadero especializado y optimizamos
+                  los procesos tradicionales de secado, combinando el saber hacer de toda una vida con la
+                  infraestructura necesaria para garantizar la máxima calidad.
+                </p>
+                <p>
+                  Hoy en día nos dedicamos al comercio y distribución de chufa, ofreciendo a nuestros
+                  clientes un producto tratado con el rigor, el cuidado y la maestría que solo décadas de
+                  experiencia agrícola pueden ofrecer.
                 </p>
               </div>
 
               <div className="mt-8 flex flex-wrap gap-4">
                 <div className="rounded-2xl border border-cream-400 bg-cream-50 px-6 py-4">
-                  <p className="text-3xl font-semibold text-primary">25+</p>
-                  <p className="text-sm text-earth-600">Años de experiencia</p>
+                  <p className="text-3xl font-semibold text-primary">50+</p>
+                  <p className="text-sm text-earth-600">Años de tradición agrícola</p>
                 </div>
                 <div className="rounded-2xl border border-cream-400 bg-cream-50 px-6 py-4">
-                  <p className="text-3xl font-semibold text-primary">100%</p>
-                  <p className="text-sm text-earth-600">Proceso propio</p>
+                  <p className="text-3xl font-semibold text-primary">27</p>
+                  <p className="text-sm text-earth-600">Años especializados en chufa</p>
                 </div>
               </div>
             </div>
