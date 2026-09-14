@@ -11,23 +11,11 @@ const links = [
 ];
 
 export function Header() {
-  const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        scrolled || open
-          ? "border-b border-cream-400/60 bg-cream-50/90 shadow-sm backdrop-blur-md"
-          : "border-b border-transparent bg-transparent"
-      }`}
+      className="fixed inset-x-0 top-0 z-50 border-b border-cream-400/60 bg-cream-50/95 shadow-sm backdrop-blur-md"
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-3">
         <a href="#inicio" className="flex items-center gap-3" aria-label="Xufes Pastor, inicio">

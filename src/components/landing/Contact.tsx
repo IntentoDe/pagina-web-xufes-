@@ -2,7 +2,7 @@ import { useState, type FormEvent } from "react";
 import { Send, CheckCircle2 } from "lucide-react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
-const EMAIL = "hola@chufadevalencia.es";
+const EMAIL = "vpcerpase@hotmail.com";
 
 type Errors = Partial<Record<"name" | "email" | "quantity" | "message", string>>;
 

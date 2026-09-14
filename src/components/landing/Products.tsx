@@ -8,34 +8,23 @@ const products = [
     id: 1,
     name: "Chufa Seca Premium",
     category: "Snack natural",
-    price: "6,90 €",
+    price: "6,50 €",
     image: productImage,
     description:
       "Selección extra de chufa seca de Valencia, crujiente y con su dulzor característico. Ideal para picar entre horas o añadir a ensaladas y postres.",
-    features: ["Bolsa de 500 g", "Sin aditivos", "Origen DO Valencia"],
+    features: ["Bolsa de 1 kg", "Sin aditivos", "Origen DO Valencia"],
     badge: "Más vendido",
   },
   {
     id: 2,
-    name: "Chufa con Piel Artesanal",
+    name: "Chufa Seca Seleccionada",
     category: "Tradicional",
-    price: "5,50 €",
+    price: "5,00 €",
     image: productImage,
     description:
       "Chufa con su piel natural, tal como la consumían nuestros abuelos. Sabor más intenso y textura auténtica para los paladares más exigentes.",
     features: ["Bolsa de 400 g", "Secado tradicional", "Sabor intenso"],
     badge: null,
-  },
-  {
-    id: 3,
-    name: "Pack Degustación",
-    category: "Pack regalo",
-    price: "18,00 €",
-    image: productImage,
-    description:
-      "Una cuidada selección de tres variedades de chufa valenciana en formato regalo. Perfecto para descubrir matices o sorprender a los tuyos.",
-    features: ["3 bolsas de 250 g", "Caja artesanal", "Incluye recetario"],
-    badge: "Edición limitada",
   },
 ];
 
@@ -65,14 +54,14 @@ export function Products() {
 
         <div
           ref={gridRef}
-          className={`mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 ${
+          className={`mt-16 grid w-full justify-center grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 ${
             gridVisible ? "reveal-visible" : ""
           } reveal`}
         >
           {products.map((product, index) => (
             <article
               key={product.id}
-              className={`group relative flex flex-col overflow-hidden rounded-3xl border border-cream-400/60 bg-cream-100 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-earth-900/5 ${
+              className={`group relative mx-auto flex w-full max-w-sm flex-col overflow-hidden rounded-3xl border border-cream-400/60 bg-cream-100 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-earth-900/5 ${
                 gridVisible ? "reveal-visible" : ""
               } reveal stagger-${index + 1}`}
             >
@@ -95,16 +84,11 @@ export function Products() {
                 <div className="absolute inset-0 bg-gradient-to-t from-earth-900/10 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
               </div>
 
-              <div className="flex flex-1 flex-col p-6">
-                <div className="flex items-start justify-between gap-3">
-                  <div>
-                    <p className="text-xs font-semibold uppercase tracking-wider text-primary">
-                      {product.category}
-                    </p>
-                    <h3 className="mt-1 font-display text-xl font-medium text-earth-900">
-                      {product.name}
-                    </h3>
-                  </div>
+              <div className="flex flex-1 flex-col p-6 text-center">
+                <div className="flex items-center justify-between gap-3 text-left">
+                  <h3 className="font-display text-xl font-medium text-earth-900">
+                    {product.name}
+                  </h3>
                   <p className="text-lg font-semibold text-primary">{product.price}</p>
                 </div>
 
