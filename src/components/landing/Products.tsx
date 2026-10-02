@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import productImage from "@/assets/product-chufa.jpg";
-import { ArrowRight, X, ShoppingBag, Award, Check } from "lucide-react";
+import { ArrowRight, X, Award, Check } from "lucide-react";
 
 const products = [
   {
@@ -19,11 +19,11 @@ const products = [
     id: 2,
     name: "Chufa Seca Seleccionada",
     category: "Tradicional",
-    price: "5,00 €",
+    price: "5,50 €",
     image: productImage,
     description:
       "Chufa con su piel natural, tal como la consumían nuestros abuelos. Sabor más intenso y textura auténtica para los paladares más exigentes.",
-    features: ["Bolsa de 400 g", "Secado tradicional", "Sabor intenso"],
+    features: ["Bolsa de 1 kg", "Secado tradicional", "Sabor intenso"],
     badge: null,
   },
 ];
@@ -166,13 +166,6 @@ export function Products() {
                 ))}
               </ul>
 
-              <button
-                onClick={() => setSelectedProduct(null)}
-                className="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-base font-semibold text-primary-foreground transition-all hover:bg-green-700 active:scale-[0.98]"
-              >
-                <ShoppingBag className="h-4 w-4" />
-                Añadir al carrito
-              </button>
             </div>
           </div>
         </div>

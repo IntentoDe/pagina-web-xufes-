@@ -28,7 +28,7 @@ const steps = [
   },
   {
     icon: Sun,
-    title: "Secado al sol",
+    title: "Secado natural",
     description:
       "Se extienden al sol durante semanas hasta alcanzar la textura crujiente y el dulzor concentrado que las caracteriza.",
   },

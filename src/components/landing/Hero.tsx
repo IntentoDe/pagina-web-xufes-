@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-chufa.jpg";
+import heroImage from "@/assets/descargando chufas en foios.jpeg";
 
 export function Hero() {
   return (

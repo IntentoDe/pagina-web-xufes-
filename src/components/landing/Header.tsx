@@ -7,7 +7,6 @@ const links = [
   { href: "#beneficios", label: "Beneficios" },
   { href: "#productos", label: "Productos" },
   { href: "#proceso", label: "Proceso" },
-  { href: "#contacto", label: "Contacto" },
 ];
 
 export function Header() {
