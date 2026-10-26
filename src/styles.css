@@ -18,7 +18,7 @@
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
 
-  --font-display: "Playfair Display", Georgia, serif;
+  --font-display: "Fraunces", Georgia, serif;
   --font-body: "DM Sans", system-ui, sans-serif;
 
   --color-background: var(--background);
@@ -101,9 +101,9 @@
   --popover: oklch(0.99 0.01 85);
   --popover-foreground: oklch(0.28 0.045 65);
 
-  /* Natural green primary */
-  --primary: oklch(0.46 0.13 145);
-  --primary-foreground: oklch(0.98 0.01 85);
+  /* Tostado chufa primary */
+  --primary: oklch(0.52 0.12 52);
+  --primary-foreground: oklch(0.99 0.01 85);
 
   /* Warm sand secondary */
   --secondary: oklch(0.92 0.03 80);
@@ -112,15 +112,15 @@
   --muted: oklch(0.92 0.025 80);
   --muted-foreground: oklch(0.52 0.05 70);
 
-  /* Terracotta accent */
-  --accent: oklch(0.6 0.13 55);
+  /* Huerta green accent (Denominación de Origen) */
+  --accent: oklch(0.36 0.07 150);
   --accent-foreground: oklch(0.99 0.01 85);
 
   --destructive: oklch(0.55 0.2 25);
   --destructive-foreground: oklch(0.99 0.01 85);
   --border: oklch(0.86 0.035 80);
   --input: oklch(0.86 0.035 80);
-  --ring: oklch(0.46 0.13 145);
+  --ring: oklch(0.52 0.12 52);
 
   /* Extended earth palette */
   --earth-50: oklch(0.97 0.02 75);
@@ -202,6 +202,17 @@
 
   html {
     scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
   }
 
   body {

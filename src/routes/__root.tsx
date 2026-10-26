@@ -77,14 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Xufes Pastor | Venta de Chufa de Valencia" },
-      { name: "description", content: "Descubre la Chufa de Valencia de Xufes Pastor: el oro de la huerta. Historia, beneficios para la salud y productos artesanales de tigernut con Denominación de Origen." },
+      { title: "Xufes Pastor | Chufa de Valencia DO a granel" },
+      { name: "description", content: "Proveedor de Chufa de Valencia con Denominación de Origen para fábricas de horchata y horchaterías. Lavadero y secadero propios en Alboraya. Pedidos desde 200 kg." },
       { name: "author", content: "Xufes Pastor" },
-      { property: "og:title", content: "Xufes Pastor | Venta de Chufa de Valencia" },
-      { property: "og:description", content: "Descubre la Chufa de Valencia de Xufes Pastor: historia, beneficios para la salud y productos artesanales con Denominación de Origen." },
+      { property: "og:title", content: "Xufes Pastor | Chufa de Valencia DO a granel" },
+      { property: "og:description", content: "Chufa de Valencia DO para fábricas de horchata y horchaterías artesanas. Pedidos desde 200 kg." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@xufespastor" },
     ],
     links: [
       {
@@ -96,7 +95,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..800&display=swap",
       },
     ],
   }),

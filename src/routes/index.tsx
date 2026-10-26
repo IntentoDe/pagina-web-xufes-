@@ -2,9 +2,10 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Hero } from "@/components/landing/Hero";
 import { Header } from "@/components/landing/Header";
 import { Contact } from "@/components/landing/Contact";
-import { History } from "@/components/landing/History";
-import { Products } from "@/components/landing/Products";
-import { Timeline } from "@/components/landing/Timeline";
+import { Origin } from "@/components/landing/Origin";
+import { Qualities } from "@/components/landing/Qualities";
+import { Process } from "@/components/landing/Process";
+import { About } from "@/components/landing/About";
 import { Footer } from "@/components/landing/Footer";
 
 export const Route = createFileRoute("/")({
@@ -12,12 +13,12 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: "Xufes Pastor | Chufa de Valencia — de lo bueno lo mejor",
+        title: "Xufes Pastor | Chufa de Valencia DO a granel para horchata",
       },
       {
         name: "description",
         content:
-          "Descubre la Chufa de Valencia de Xufes Pastor: historia, beneficios para la salud y productos artesanales de tigernut con Denominación de Origen.",
+          "Proveedor de Chufa de Valencia con Denominación de Origen para fábricas de horchata y horchaterías artesanas. Calidad normal y premium, pedidos desde 200 kg.",
       },
       {
         property: "og:title",
@@ -26,7 +27,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Descubre la Chufa de Valencia de Xufes Pastor: historia, beneficios para la salud y productos artesanales con Denominación de Origen.",
+          "Chufa de Valencia DO para fábricas de horchata y horchaterías artesanas. Pedidos desde 200 kg.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -39,9 +40,10 @@ function Index() {
     <main className="min-h-screen">
       <Header />
       <Hero />
-      <History />
-      <Products />
-      <Timeline />
+      <Origin />
+      <Qualities />
+      <Process />
+      <About />
       <Contact />
       <Footer />
     </main>
