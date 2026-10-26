@@ -18,7 +18,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Proveedor de Chufa de Valencia con Denominación de Origen para fábricas de horchata y horchaterías artesanas. Calidad normal y premium, pedidos desde 200 kg.",
+          "Proveedor de Chufa de Valencia con Denominación de Origen para fábricas de horchata y horchaterías artesanas. Calidad normal y premium.",
       },
       {
         property: "og:title",
@@ -27,7 +27,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Chufa de Valencia DO para fábricas de horchata y horchaterías artesanas. Pedidos desde 200 kg.",
+          "Chufa de Valencia DO para fábricas de horchata y horchaterías artesanas.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

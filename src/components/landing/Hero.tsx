@@ -2,7 +2,6 @@ import { ArrowRight, BadgeCheck } from "lucide-react";
 import heroImage from "@/assets/descargando chufas en foios.jpeg";
 
 const facts = [
-  { value: "200 kg", label: "Pedido mínimo" },
   { value: "DO", label: "Chufa de Valencia" },
   { value: "27 años", label: "Dedicados a la chufa" },
   { value: "Propios", label: "Lavadero y secadero" },
@@ -38,7 +37,7 @@ export function Hero() {
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-cream-200 sm:text-xl">
             Cultivamos, lavamos y secamos Chufa de Valencia en Alboraya. Suministramos a fábricas
-            de horchata y horchaterías artesanas, en calidad normal o premium, a partir de 200 kg.
+            de horchata y horchaterías artesanas, en calidad normal o premium.
           </p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
             <a
@@ -59,14 +58,12 @@ export function Hero() {
       </div>
 
       <div className="relative z-10 border-t border-cream-50/15 bg-earth-900/60 backdrop-blur-sm">
-        <dl className="mx-auto grid max-w-7xl grid-cols-2 px-6 lg:grid-cols-4">
+        <dl className="mx-auto grid max-w-7xl grid-cols-3 px-6">
           {facts.map((fact, index) => (
             <div
               key={fact.label}
-              className={`py-5 lg:py-6 ${index % 2 === 1 ? "pl-6" : ""} ${
-                index > 0 ? "lg:border-l lg:border-cream-50/15 lg:pl-8" : ""
-              } ${index % 2 === 1 ? "border-l border-cream-50/15" : ""} ${
-                index < 2 ? "border-b border-cream-50/15 lg:border-b-0" : ""
+              className={`py-5 lg:py-6 ${
+                index > 0 ? "border-l border-cream-50/15 pl-4 lg:pl-8" : ""
               }`}
             >
               <dt className="sr-only">{fact.label}</dt>
