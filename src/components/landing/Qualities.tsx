@@ -13,7 +13,7 @@ const qualities = [
     features: [
       "Calibre estándar, homogéneo",
       "Lavada y secada en nuestras instalaciones",
-      "Libre de piedras y restos de campo",
+      "Libre de restos e impurezas del campo",
     ],
     featured: false,
   },
@@ -28,7 +28,7 @@ const qualities = [
     features: [
       "Selección de calibre grande",
       "Lavada y secada en nuestras instalaciones",
-      "Libre de piedras y restos de campo",
+      "Libre de restos e impurezas del campo",
     ],
     featured: true,
   },

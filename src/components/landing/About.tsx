@@ -41,7 +41,7 @@ export function About() {
           </h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-earth-700">
             <p>
-              Xufes Pastor son dos hermanos que llevan toda la vida en el campo. Más de 50 años
+              Xufes Pastor nace de dos hermanos que llevan toda la vida en el campo. Más de 50 años
               trabajando la tierra nos han enseñado a respetar cada ciclo del cultivo.
             </p>
             <p>

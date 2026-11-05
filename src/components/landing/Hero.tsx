@@ -3,7 +3,7 @@ import heroImage from "@/assets/descargando chufas en foios.jpeg";
 
 const facts = [
   { value: "DO", label: "Chufa de Valencia" },
-  { value: "27 años", label: "Dedicados a la chufa" },
+  { value: "50+ años", label: "Dedicados al campo" },
   { value: "Propios", label: "Lavadero y secadero" },
 ];
 

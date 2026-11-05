@@ -20,7 +20,7 @@ const steps = [
   {
     title: "Secado natural",
     description:
-      "Se extiende y se voltea a diario durante semanas hasta que pierde la humedad y concentra su dulzor.",
+      "Se extiende y se voltea a diario durante semanas hasta que pierde la humedad y despierta su sabor.",
   },
   {
     title: "Selección y envío",

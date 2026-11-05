@@ -1,5 +1,6 @@
 import { MapPin, ShieldCheck, Award } from "lucide-react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
+import logoDO from "@/assets/logo-do-chufa-valencia.png";
 
 const pillars = [
   {
@@ -51,13 +52,20 @@ export function Origin() {
             <h2 className="mt-4 text-balance text-4xl font-semibold leading-tight text-cream-50 lg:text-5xl">
               Solo es Chufa de Valencia si nace en l'Horta Nord
             </h2>
+            <img
+              src={logoDO}
+              alt="Consejo Regulador Denominación de Origen Chufa de Valencia"
+              width={3039}
+              height={1350}
+              loading="lazy"
+              className="mt-10 w-full max-w-xs drop-shadow-xl sm:max-w-sm"
+            />
           </div>
           <div className="space-y-4 text-lg leading-relaxed text-cream-200 lg:pt-10">
             <p>
               Buena parte de la chufa que se vende en España llega de fuera. La Denominación de
               Origen Chufa de Valencia protege la que se cultiva aquí, en la huerta de Alboraya y
-              los pueblos de alrededor, con un clima, una tierra arenosa y un agua de acequia que no
-              se pueden copiar.
+              los pueblos de alrededor, con un clima, una tierra arenosa y un sistema de riego tradicional.
             </p>
             <p>
               Toda nuestra chufa es DO. Apostar por ella es apostar por el sabor de siempre y por
