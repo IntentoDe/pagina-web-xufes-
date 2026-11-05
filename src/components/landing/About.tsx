@@ -1,5 +1,5 @@
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
-import productImage from "@/assets/product-chufa.jpg";
+import aboutImage from "@/assets/lavadero-cinta-chufa.jpg";
 
 const stats = [
   { value: "50+", label: "años trabajando la tierra" },
@@ -20,11 +20,11 @@ export function About() {
       >
         <div className="relative order-2 lg:order-1">
           <img
-            src={productImage}
-            alt="Chufa seca de Valencia en un saco de arpillera"
-            className="aspect-[4/5] w-full rounded-3xl object-cover"
-            width={816}
-            height={816}
+            src={aboutImage}
+            alt="Cinta transportadora cargando chufa lavada en un remolque de Xufes Pastor"
+            className="aspect-[4/5] w-full rounded-3xl object-cover object-[50%_42%]"
+            width={1125}
+            height={2000}
             loading="lazy"
           />
           <div className="absolute -bottom-6 right-6 rounded-2xl bg-primary px-6 py-5 text-primary-foreground shadow-xl lg:-right-6">
