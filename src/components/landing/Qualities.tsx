@@ -186,8 +186,7 @@ export function Qualities() {
         </div>
 
         <p className="mt-8 text-center text-earth-600">
-          Pedido mínimo <strong className="text-earth-900">200 kg</strong>. Precio según calidad,
-          volumen y época de la campaña.
+          Precio según calidad, volumen y época de la campaña.
         </p>
       </div>
     </section>

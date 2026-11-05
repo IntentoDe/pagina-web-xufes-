@@ -147,7 +147,7 @@ export function Contact() {
           <div className="rounded-3xl bg-cream-50 p-6 shadow-2xl sm:p-8 lg:p-10">
             <h3 className="text-2xl font-semibold text-earth-900">Solicitar presupuesto</h3>
             <p className="mt-1 text-sm text-earth-600">
-              Respondemos en 24-48 horas laborables. Pedido mínimo 200 kg.
+              Respondemos en 24-48 horas laborables.
             </p>
 
             {sent && (
@@ -224,7 +224,7 @@ export function Contact() {
                   </label>
                   <select id="quantity" name="quantity" className={inputClass} defaultValue="">
                     <option value="">Selecciona…</option>
-                    <option>200 – 500 kg</option>
+                    <option>Menos de 500 kg</option>
                     <option>500 kg – 1 t</option>
                     <option>1 – 5 t</option>
                     <option>Más de 5 t</option>
