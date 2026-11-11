@@ -1,0 +1,4 @@
+{
+  // Configuración de Cloudflare. El resto (main, assets...) lo genera la compilación.
+  "name": "xufes-pastor"
+}
