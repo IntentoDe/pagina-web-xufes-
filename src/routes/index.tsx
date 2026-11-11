@@ -22,7 +22,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "Xufes Pastor | Chufa de Valencia — de lo bueno lo mejor",
+        content: "Xufes Pastor | Venta de Chufa de Valencia",
       },
       {
         property: "og:description",
