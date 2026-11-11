@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: "Xufes Pastor | Chufa de Valencia DO a granel para horchata",
+        title: "Xufes Pastor | Venta de Chufa de Valencia",
       },
       {
         name: "description",
