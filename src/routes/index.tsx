@@ -30,8 +30,10 @@ export const Route = createFileRoute("/")({
           "Chufa de Valencia DO para fábricas de horchata y horchaterías artesanas.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://xufespastor.es/" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
+    links: [{ rel: "canonical", href: "https://xufespastor.es/" }],
   }),
 });
 
