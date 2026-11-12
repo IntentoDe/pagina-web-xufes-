@@ -44,8 +44,18 @@ function isH3SwallowedErrorBody(body: string): boolean {
   }
 }
 
+// Fuerza HTTPS en el dominio público (no afecta a localhost en desarrollo).
+function httpsRedirect(request: Request): Response | undefined {
+  const url = new URL(request.url);
+  if (url.protocol !== "http:" || !url.hostname.endsWith("xufespastor.es")) return undefined;
+  url.protocol = "https:";
+  return Response.redirect(url.toString(), 301);
+}
+
 export default {
   async fetch(request: Request, env: unknown, ctx: unknown) {
+    const redirect = httpsRedirect(request);
+    if (redirect) return redirect;
     try {
       const handler = await getServerEntry();
       const response = await handler.fetch(request, env, ctx);
